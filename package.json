@@ -2,6 +2,7 @@
   "name": "react-wiki",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://redhoodjt1988.github.io/rickandmortywiki",
   "dependencies": {
     "@popperjs/core": "^2.11.0",
     "@testing-library/jest-dom": "^5.16.0",
@@ -39,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
