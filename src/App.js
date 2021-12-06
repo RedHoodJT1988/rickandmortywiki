@@ -64,14 +64,14 @@ function App() {
         <Navbar />
       </div>
       <Routes>
-        <Route path="/rickandmortywiki" element={<Home />} />
-        <Route path="/rickandmortywiki/:id" element={<CardDetails />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/:id" element={<CardDetails />} />
 
-        <Route path="/rickandmortywiki/episodes" element={<Episodes />} />
-        <Route path="/rickandmortywiki/episodes/:id" element={<CardDetails />} />
+        <Route path="/episodes" element={<Episodes />} />
+        <Route path="/episodes/:id" element={<CardDetails />} />
 
-        <Route path="/rickandmortywiki/location" element={<Location />} />
-        <Route path="/rickandmortywiki/location/:id" element={<CardDetails />} />
+        <Route path="/location" element={<Location />} />
+        <Route path="/location/:id" element={<CardDetails />} />
       </Routes>
     </Router>
   );
